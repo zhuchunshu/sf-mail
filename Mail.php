@@ -21,8 +21,12 @@ class Mail
         $this->helpers();
     }
 
+<<<<<<< HEAD
     public function composer(): void
     {
+=======
+    public function composer(){
+>>>>>>> 57e24dea87e91f5b843f8b25da7d3129beff773e
         require_once __DIR__."/vendor/autoload.php";
     }
 
@@ -31,7 +35,11 @@ class Mail
         require_once __DIR__."/setting.php";
     }
 
+<<<<<<< HEAD
     public function helpers(): void
+=======
+    public function helpers()
+>>>>>>> 57e24dea87e91f5b843f8b25da7d3129beff773e
     {
         require_once __DIR__."/helpers.php";
     }
